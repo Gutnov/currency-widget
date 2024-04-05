@@ -37,6 +37,11 @@
 			"vue/html-indent": [ "error", "tab" ],
 			"vue/component-name-in-template-casing": ["error", "kebab-case", { "registeredComponentsOnly": false, "ignores": [] }],
 			"@typescript-eslint/no-explicit-any": "off",
-			"@typescript-eslint/indent": [ "error", "tab" ]
+			"@typescript-eslint/indent": [ "error", "tab" ],
+			"object-curly-spacing": ["warn", "always"],
+			"max-len": ["warn", {
+				"code": 100
+			}],
+			"no-multi-spaces": ["warn"]
 	}
 }

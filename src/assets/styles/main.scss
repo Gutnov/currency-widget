@@ -1,9 +1,13 @@
+
+@import "./variables.scss";
+@import "./fonts.scss";
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: normal;
   color-scheme: light dark;
-  color: rgb(255 255 255 / 87%);
+  color: $text-color;
   background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizelegibility;
@@ -60,7 +64,7 @@ button:focus-visible {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 @media (prefers-color-scheme: light) {
@@ -76,4 +80,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.widget-container {
+	padding: 0 24px;
+}
+
+.widget-box {
+	max-width: 720px;
 }
